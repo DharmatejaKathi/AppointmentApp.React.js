@@ -1,0 +1,23 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  width: 300px;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 8px;
+  margin-right: 12px;
+}
+.starred-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.star-img {
+  width: 25px;
+  height: 25px;
+}
+.star-button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
